@@ -1,0 +1,36 @@
+#container{
+   width: 1000px;
+   margin: 0px, auto; 
+   border:none;
+}
+
+div{
+   width: 700px;
+   margin: 0 auto;
+   border: 1px dotted #333;
+   margin-bottom: 30px;
+}
+
+#description{
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+}
+
+#drscription p{line-height: 2em;}
+#receipe ol li{line-height: 2em;}
+/* #receipe{
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+} */
+
+#package{
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+table, th, td{
+   border: 1px solid #ccc;
+   border-collapse: collapse;
+}
+th, td{padding: 10px 20px;}
+caption{margin-bottom: 10px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Border Radius 속성</title>
+   <style>
+         .round{
+            width: 250px;
+            height: 200px;
+            border: 2px solid #ff0000;
+            border-radius: 10%; /* 10% 박스 크기의 10% - 30px */
+            margin: 10PX;
+            display: inline-block; /* w-h -b 값 있을때는 block 넣어야 정렬됨 */
+         }
+         #bg{
+            background: url("images/cat.jpg");
+            background-size: cover; /* cover 축소되어 꽉 차게 표시 */
+         }
+   </style>
+
+</head>
+<body>
+   
+   <div class="round"></div>
+   <div class="round" id="bg"></div>
+
+</body>
+</html>

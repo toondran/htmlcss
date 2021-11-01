@@ -1,0 +1,12 @@
+
+   nav{width: 300px;}
+   ul{list-style: none;} /* 블릿 제거 */
+   ul li{
+      border: 1px solid #222;
+      padding: 20px 30px;
+      margin: 15px;
+   }
+   ul li a{
+      text-decoration: none;  /* 밑줄 감추기 */
+      color: #000;
+   }

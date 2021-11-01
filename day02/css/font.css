@@ -1,0 +1,7 @@
+  /* 내부 스타일 */
+  h1{color: rgb(0, 255, 0);}
+  h2{color: rgb(0, 38, 255);}
+  p{font-style: normal;
+      line-height: 2; /* 2는 글자크기의 2배이다 */}
+
+      
