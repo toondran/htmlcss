@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      fieldset{
+         margin: 20px;
+      } 
+      input[type="submit"{ 
+         margin-left: 20px;
+      }
+   </style>
+</head>
+<body>
+   <form action="#" method="post"> 
+      <fieldset>
+         <legend>신청과목</legend>
+         <P>이 달에 신칭할 과목을 선택하세요</P>
+         <label>
+            <input type="radio" name="subject" value="speaking" >회화
+         </label>
+         <label >
+            <input type="radio" name="subject" value="grammer">문법
+         </label>
+         <label >
+            <input type="radio" name="subject" value="writing">작문
+         </label>
+         </fieldset>
+         
+         <fieldset>
+            <legend>메일링</legend>
+            <p>메일로 받고 싶은 주제를 선택해 주세요(복수 가능)</p>
+            <label> <input type="checkbox" name="mailing1" value="news">뉴스</label>
+            <label> <input type="checkbox" name="mailing2" value="dialog">5분 회화</label>
+            <label> <input type="checkbox" name="mailing3" value="pops">모닝팝스</label>
+         </fieldset>
+   <input type="submit" value="전송">
+   </form>
+</body>
+</html>
