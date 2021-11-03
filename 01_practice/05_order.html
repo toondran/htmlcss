@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문서 만들기</title>
+    <link rel='stylesheet'href='css/order.css'>
+    <heed>
+<body>
+   <div id="container">
+      <h1>레드향 주문하기</h1>
+      <form action="#" method="post">
+         <fieldset id="product">
+            <legend>상품선택</legend>
+            <p><b>주문할 상품을 선택해 주세요</b></p>
+            <ul>
+               <li>
+                  <label><input type="check" value="g_3">선물용 3kg</label>
+                  <input type="nember" min="0" max="5" value="1"> 개 (최대 5개)
+               </li>
+               <li>
+                  <label><input type="check" value="g_5">선물용 5kg</label>
+                  <input type="nember" min="0" max="3" value="1"> 개 (최대 3개)
+               </li>
+            </ul>
+            <p><b>포장선택</b></p>
+            <ul>
+               <li>
+                  <lable><input type="radio" NAME="gift" value="yes">선물포장</lable>
+                  </li>
+                  <li>
+                  <lable><input type="radio" NAME="gift" value="no">선물포장안함</lable>
+               </li>
+            </ul>
+         </fieldset>
+         <fieldset id ="SHIPPING">
+            <LEgend>배송지정보</LEgend>
+            <UL>
+               <LI>
+                  <label for="user_name">이름</label>
+                  <input type="text" id="user_name" name="user_name">
+               </LI>
+               <LI>
+                  <label for="user_name">배송주소</label>
+                  <input type="text" id="user_name" name="user_name">
+               </LI>
+               <LI>
+                  <label for="user_name">연락처</label>
+                  <input type="text" id="user_name" name="user_name">
+               </LI>
+            </UL>
+         </fieldset>
+            <div class="button">
+               <input type="submit" value="주문하기">
+               <input type="reset" value="취소하기">
+
+            </div>
+
+      </form>
+
+
+   </div>
+
+
+
+</body>
+
+    </head>

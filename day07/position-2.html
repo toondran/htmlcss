@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      #rect1{
+         width: 300px;
+         height: 200px;
+         background-color: burlywood;
+         position: relative; /* relative 없으면 브라우저 기준(부모요소에 둔다) */
+      }
+      #rect2{
+         width: 100px;
+         height: 100px;
+         background-color: cornflowerblue;
+         position: absolute;
+         /* top: 50px; */
+         bottom: 30px;
+         right: 10px;  /* -값은 부모 밖으로 */
+      }
+   </style>
+</head>
+<body>
+   
+      <div div id="rect1">
+      <div id="rect2"></div>
+      </div>
+</body>
+</html>

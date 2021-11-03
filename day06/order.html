@@ -5,7 +5,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>주문서</title>
-   <ilnk rel="stylesheet" 
+   <ilnk rel="stylesheet" href="css/order.css"></ilnk>
 </head>
 <body>
    <div id="container">
@@ -37,23 +37,24 @@
             <ul>
                <li>
                   <label for ="user_name">이름</label>
-                  <input type="text" name="user_name" id="user_name">
+                  <input type="text" name="user_name" id="user_name" autofocus required><!-- 커서위치 자동, 필수입력 -->
                </li>
                <li>
                   <label for ="adress">주소</label>
-                  <input type="text" name="adress" id="adress">
+                  <input type="text" name="adress" id="adress" required>
                </li>
                <li>
                   <label for ="phone">연락처</label>
-                  <input type="text" name="phone" id="phone">
+                  <input type="text" name="phone" id="phone" required>
                </li>
                <li>
                   <textarea name="memo" cols="40" rows="4" placeholder="배송시 요청사항"></textarea>
                </li>
             </ul>
-         
+      <br>
       </fieldset>
 <div class="button">
+   <br>
 <input type="submit" value="주문하기">
 <input type="reset" value="취소하기">
 

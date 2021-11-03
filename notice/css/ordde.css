@@ -1,0 +1,26 @@
+#container{
+   width: 600px;
+   margin: 0 auto;
+}
+ul{
+   list-style: none;
+}
+ul li{margin: 15;}
+ul li label{
+   width: 100px;
+   float: left;
+}
+.button{
+   margin-top: 10px;
+}
+.button input{
+   width: 100px;
+   height: 40px;
+   margin: 5;
+   font-size: 1em;
+}
+.button input:hover{
+   background-color: blue;
+color: cornsilk;
+border-color: darkgrey;
+}

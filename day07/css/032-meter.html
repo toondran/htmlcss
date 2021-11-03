@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>032-meter</title>
+</head>
+<body>
+   <form>
+      <ul>
+         <li>
+            <label>점유율 0.6</label>
+            <meter value="0.6"></meter>
+         </li>
+         <li>
+            <label>사용량 64%</label>
+            <meter min="0" max="100" value="64"></meter>
+         </li>
+         <li>
+            <label>트래픽 초과</label>
+            <meter min="1024" max="10240" low="2048" high="8192" value="9216"></meter>
+            <!-- 전체 크기는 1024~10240인데 high로 설정한 8192보다 현재 값이 큼 -->
+         </li>
+      </ul>
+   </form>
+</body>
+</html>
