@@ -1,0 +1,29 @@
+#container{
+   width: 1200px;
+   height: ;
+   margin: 0, auto;
+}
+#header{
+   height: 800px;
+   background-color: cornsilk;
+   padding: 10px;
+}
+#left-aside{
+   width: 200px;
+   height: 600px;
+   background-color: rgb(107, 124, 255);
+   padding: 10px;
+   float: left;
+}
+#cotants{
+   height: 800px;
+   background-color: rgb(243, 101, 193);
+   padding: 10px;
+   padding: 10px;
+   float: left;
+}
+#right-aside{
+   height: 800px;
+   background-color: rgb(135, 250, 145);
+   padding: 10px;
+}

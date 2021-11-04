@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      /* zclass 안주면 그냥 div */
+      .box{
+         width: 100px;
+         height: 100px;
+         border: 1px solid #000;
+      }
+      #rec1{
+         background-color: coral;
+         position: absolute;
+         top: 100px;
+         left: 100px;
+         /*  */
+         z-index: 3;
+      }
+      #rec2{
+         background-color: rgb(141, 80, 255);
+         position: absolute;
+         top: 120px;
+         left: 150px;
+         z-index: 4;
+      }
+      #rec3{
+         background-color: rgb(188, 255, 80);
+         position: absolute;
+         top: 150px;
+         left: 70px;
+         z-index: 1;
+      }
+   </style>
+</head>
+<body>
+   <div id="rec1" class="box"></div>
+   <div id="rec2" class="box"></div>
+   <div id="rec3" class="box"></div>
+</body>
+</html>
