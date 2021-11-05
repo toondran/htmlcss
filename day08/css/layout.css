@@ -1,29 +1,35 @@
-#container{
-   width: 1200px;
-   height: ;
-   margin: 0, auto;
-}
+/* layout.css */
+*{margin: 0; padding: 0;}
+#container{width: 1200px; margin: 0 auto;}
 #header{
-   height: 800px;
-   background-color: cornsilk;
-   padding: 10px;
+    height: 100px;
+    background-color: beige;
+    padding: 10px;
 }
 #left-aside{
-   width: 200px;
-   height: 600px;
-   background-color: rgb(107, 124, 255);
-   padding: 10px;
-   float: left;
+    width: 200px;
+    height: 600px;
+    background-color: rgb(195, 247, 199);
+    padding: 10px;
+    float: left;
 }
-#cotants{
-   height: 800px;
-   background-color: rgb(243, 101, 193);
-   padding: 10px;
-   padding: 10px;
-   float: left;
+#contents{
+    width: 740px;
+    height: 600px;
+    background-color: rgb(248, 204, 146);
+    padding: 10px;
+    float: left;
 }
 #right-aside{
-   height: 800px;
-   background-color: rgb(135, 250, 145);
-   padding: 10px;
+    width: 200px;
+    height: 600px;
+    background-color: rgb(174, 226, 247);
+    padding: 10px;
+    float: right;
+}
+#footer{
+    height: 100px;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    clear: both;
 }

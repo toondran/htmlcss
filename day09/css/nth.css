@@ -1,0 +1,15 @@
+.container{width: 960pxl; margin: 0 auto;}
+.content{
+   width: 400px;
+   margin: 0 auto;
+   border:1px solid #333;
+   border-radius: 5px;
+   padding: 20px;
+}
+.content :first-child{color: rgb(120, 41, 211);}
+.content :last-child{color: green;}
+.content :nth-child(3){color: rgb(170, 250, 42);}
+.content p:nth-of-type(3){color:rgb(250, 42, 111)}
+
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>속성 선택자</title>
+    <style>
+        ul{list-style: none;}
+        ul li{margin: 15px;}
+        ul li a{text-decoration: none;}
+        ul li a[target="_blank"]{
+            background: url("images/newwindow.png") no-repeat center right;
+            padding-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>주요 포털 사이트</h2>
+    <ul>
+        <li>
+            <a href="http://www.google.com" target="_blank">구글</a>
+        </li>
+        <li>
+            <a href="http://www.naver.com">네이버</a>
+        </li>
+        <li>
+            <a href="http://www.daum.net">다음</a>
+        </li>
+    </ul>
+</body>
+</html>
